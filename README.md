@@ -31,13 +31,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop View](https://github.com/PUDE123/Client-side-validation-signup-form/blob/main//design/custom-desktop-design.png)
-![Mobile View] (https://github.com/PUDE123/Interactive-rating-component/blob/main/interactive-rating-component-main/design/custom-desktop-design.png)
+![Desktop View](https://github.com/PUDE123/Client-side-validation-signup-form-/blob/main/intro-component-with-signup-form-master/design/desktop-view.PNG)
+![Mobile View] (https://github.com/PUDE123/Client-side-validation-signup-form-/blob/main/intro-component-with-signup-form-master/design/mobile-view.PNG)
 
 
 ### Links
 
-- Solution URL: ()
+- Solution URL: (https://www.frontendmentor.io/solutions/intro-component-sign-up-form-javascript-clientside-validation-fc0k_-xgQI)
 - Live Site URL: (https://client-side-validation-signup-form.netlify.app/)
 
 ## My process
