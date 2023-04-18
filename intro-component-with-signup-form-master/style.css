@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+	box-sizing: border:box;
+}
+html, body{
+	margin:0;
+	padding:0;
+	font-family: 'Poppins', sans-serif;
+	background: url(images/bg-intro-desktop.png), hsl(0, 100%, 74%);
+}
+
+
+section.intro-component-signup-form{
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   margin:6em 8em;
+
+}
+div.text-section{
+  color:white;
+  margin-right: 2em;
+  width:80%;
+}
+div.text-section h1{
+  font-size:2.5em;
+}
+div.text-section p{
+	font-size:16px;
+
+}
+div.form-section {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width:100%;
+	margin-left: 6em;
+}
+div.form-section p.form-top-box{
+	width:100%;
+	padding:1em;
+	font-weight:700;
+	background-color: hsl(248, 32%, 49%);
+	color:white;
+	border-radius:10px;
+	text-align: center;
+	box-shadow: 0px 6px 0px rgba(255, 255, 255, 0.3);
+
+}
+div.form-section p.form-top-box span{
+	font-weight: 400;
+}
+div.form-container{
+	background-color: white;
+	border-radius:10px;
+	padding:2em 3em;
+	width:100%;
+  
+}
+div.form-container form{
+  width:100%;
+}
+
+div.form-control{
+	position: relative;
+	margin-bottom: 10px;
+	padding-bottom:20px;
+	
+}
+div.form-control input{
+	border-radius: 5px;
+	border:1px solid rgba(0,0,0,0.095);
+	display:block;
+	font-weight: 700;
+	font-family: inherit;
+	width:95%;
+	padding:1em;
+	color:hsl(249, 10%, 26%);
+	outline:none;
+}
+div.form-control input:hover, div.form-control input:focus{
+	border:1px solid hsl(248, 32%, 49%);
+}
+.form-control.success input{
+	border:2px solid hsl(154, 59%, 51%);
+}
+.form-control.error input{
+	border: 2px solid hsl(0, 100%, 74%);
+}
+
+/*=========== INPUT ICONS ========*/
+div.form-control i{
+	position: absolute;
+	top:16px;
+	right:10px;
+	visibility: hidden;
+}
+.form-control.success i.fa-check-circle{
+	visibility: visible;
+	color:hsl(154, 59%, 51%);
+}
+.form-control.error i.fa-exclamation-circle{
+	visibility: visible;
+	color:hsl(0, 100%, 74%);
+}
+
+/*========= SMALL TEXT =====*/
+div.form-control small{
+	visibility: hidden;
+	position: absolute;
+	bottom:0;
+	right:0;
+	}	
+.form-control.error small{
+	visibility: visible;
+	color:hsl(0, 100%, 74%);
+}
+
+
+/*==== PLACEHOLDER ====*/
+div.form-control input::placeholder{
+	color:hsl(246, 25%, 77%);
+	font-weight: 500;
+	font-family: inherit;
+}
+.form-control.success input::placeholder, .form-control.error input::placeholder{
+    opacity: 0;
+    visibility: hidden;
+}
+div.form-container button{
+    width:100%;
+    padding:1em;
+    display:block;
+    border-radius: 5px;
+    border:none;
+    outline:none;
+    background-color:hsl(154, 59%, 51%);/*green*/
+    color:white;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: inherit;
+    box-shadow: 0px 4px 0px hsl(154, 67%, 58%);
+    transition: all 0.3 ease;
+}
+div.form-container button:hover, div.form-container button:focus, div.form-container button:active{
+  cursor: pointer;
+  background-color:hsla(154, 59%, 51%, 0.6);
+  
+}
+div.form-container p{
+	font-size: 11px;
+	color:hsl(248, 32%, 49%); /*blue*/
+    margin-top: 1em;
+    text-align: center;
+}
+
+footer{
+	background-color: #111;
+	color:white;
+	padding:1.5em;
+}
+
+@media (max-width:1000px){
+	section.intro-component-signup-form{
+		flex-direction: column;
+	}
+	div.text-section{
+		width:100%;
+		margin-bottom: 2em;
+		text-align: center;
+		margin-right: 0em;
+	}
+	div.form-section {
+	width:100%;
+	margin-left: 0em;
+}
+}
+
+@media (max-width:700px){
+	html, body{
+		background: url(images/bg-intro-desktop.png), hsl(0, 100%, 74%);
+	}
+	section.intro-component-signup-form{
+	margin:6em 4em;
+	}
+	div.text-section h1{
+		font-size:2em;
+	}
+	
+}
+
+@media (max-width:400px){
+	section.intro-component-signup-form{
+	margin:6em 2em;
+	}
+	div.text-section h1{
+		font-size:2em;
+	}
+	div.form-section{
+		width:80%;
+	}
+	
+}
