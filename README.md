@@ -32,7 +32,7 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop View](https://github.com/PUDE123/Client-side-validation-signup-form-/blob/main/intro-component-with-signup-form-master/design/desktop-view.PNG)
-![Mobile View] (https://github.com/PUDE123/Client-side-validation-signup-form-/blob/main/intro-component-with-signup-form-master/design/mobile-view.PNG)
+![Mobile View] (https://github.com/PUDE123/Client-side-validation-signup-form-/blob/main/intro-component-with-signup-form-master/design/mobile-view.png)
 
 
 ### Links
